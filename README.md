@@ -21,7 +21,9 @@ A atividade basea-se em um formulário para contato com envio das informações 
     - Lógica para buscar os dados do LacalStorage e enviar na Api do whatsApp;
 ```
 
-# Video
+# Screenshot
 Veja a captura de tela do projeto:
 
-![screenshot](/FormularioContato.mp4)
+![screenshot](/assets/picture1.png)
+![screenshot](/assets/picture2.png)
+![screenshot](/assets/picture3.png)
