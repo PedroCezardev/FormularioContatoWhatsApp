@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> 
+        <div class="title">
+            <h1>Formulário para contato WhatsApp</h1>
+        </div>
+        <form>
+            <div class="input">
+                <label for="nome">Nome:</label>
+                <input id="nome" type="text">
+            </div>
+            <div class="input">
+                <label for="endereco">Endereço:</label>
+                <input id="endereco" type="text">
+            </div>
+            <div class="input">
+                <label for="email">Email:</label>
+                <input id="email" type="email">
+            </div>
+            <div class="input">
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" type="number">
+            </div>
+            <div class="botoes">
+                <button type="button" onclick="gravar()">Gravar</button>
+                <button type="button" onclick="exibir()">Exibir</button>
+                <button type="button" onclick="enviar()">Enviar</button>
+            </div>
+        </form>
+
+        <div id="dados-exibidos">
+            <div id="dados-nome">
+                <h3>Nome:</h3>
+                <p></p>
+            </div>
+            <div id="dados-endereco">
+                <h3>Endereço:</h3>
+                <p></p>
+            </div>
+            <div id="dados-email">
+                <h3>Email:</h3>
+                <p></p>
+            </div>
+            <div id="dados-telefone">
+                <h3>Telefone:</h3>
+                <p></p>
+            </div>
+        </div>
+
+        <script src="script.js" defer></script>  
+    </div>
+</body>
+</html>
